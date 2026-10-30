@@ -4,8 +4,8 @@ langchain-experimental
 fastapi
 python-dotenv
 streamlit
-uvicorn
-pydantic
+uvicorn #for running the server
+pydantic #for validation n request module
 httpx
 requests
 langchain_google_community
@@ -16,4 +16,4 @@ langgraph
 langchain-google-community[places]
 
 
--e .
+-e . #for all the local package 
